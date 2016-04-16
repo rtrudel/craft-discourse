@@ -1,0 +1,34 @@
+{#
+/**
+ * Discourse plugin for Craft CMS
+ *
+ * Discourse Settings.twig
+ *
+ * @author    Richard Trudel
+ * @copyright Copyright (c) 2016 Richard Trudel
+ * @link      http://trudel.ninja
+ * @package   Discourse
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "discourse/css/Discourse_Style.css" %}
+{% includeJsResource "discourse/js/Discourse_Script.js" %}
+
+{{ forms.textField({
+    label: 'Discourse URL',
+    instructions: 'URL to Discourse installation.',
+    id: 'discourseUrl',
+    name: 'discourseUrl',
+    value: settings['discourseUrl']})
+}}
+
+{{ forms.textField({
+    label: 'Discourse SSO Secret',
+    instructions: 'Enter your secret here.',
+    id: 'discourseSecret',
+    name: 'discourseSecret',
+    value: settings['discourseSecret']})
+}}
