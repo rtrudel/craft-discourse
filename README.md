@@ -15,6 +15,7 @@ Discourse works on Craft 2.4.x and above
 ## Craft-Discourse Overview
 
 This plugin is intended to use your Craft website authentification system for Discourse.
+This plugin use "Discourse Single-Sign-On Helper for PHP" ([cviebrock/discourse-php](https://packagist.org/packages/cviebrock/discourse-php)), a PHP class for helping with Discourse's SSO login.
 
 ## Configuring Craft-Discourse
 
