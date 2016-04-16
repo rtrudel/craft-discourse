@@ -1,4 +1,4 @@
-# Discourse plugin for Craft CMS
+# Discourse SSO (Single-Sign-On) plugin for Craft CMS
 
 
 ## Installation
