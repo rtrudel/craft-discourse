@@ -3,7 +3,7 @@
 
 ## Installation
 
-To install Discourse, follow these steps:
+To install Craft-Discourse, follow these steps:
 
 1. Download & unzip the file and place the `discourse` directory into your `craft/plugins` directory
 2.  -OR- do a `git clone https://github.com/r-ninja/craft-discourse.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
@@ -12,11 +12,11 @@ To install Discourse, follow these steps:
 
 Discourse works on Craft 2.4.x and above
 
-## Discourse Overview
+## Craft-Discourse Overview
 
 This plugin is intended to use your Craft website authentification system for Discourse.
 
-## Configuring Discourse
+## Configuring Craft-Discourse
 
 In Discourse (Admin/Settings):
 * set "enable SSO" to true
@@ -31,17 +31,17 @@ In plugin settings
 * set SSO secret to the same value in your Discourse settings
 * Save and enjoy!
 
-## Using Discourse
+## Using Craft-Discourse
 
 Once configured, you should be logged in Discourse with the same user than Craft. Nothing more to do.
 
-## Discourse Roadmap
+## Craft-Discourse Roadmap
 
 Some things to do, and ideas for potential features:
 
 * Sync avatar with "SSO overrides avatar"
 
-## Discourse Changelog
+## Craft-Discourse Changelog
 
 ### 1.0.0 -- 2016.04.16
 
