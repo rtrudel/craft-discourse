@@ -35,6 +35,12 @@ In plugin settings
 
 Once configured, you should be logged in Discourse with the same user than Craft. Nothing more to do.
 
+## Discourse Roadmap
+
+Some things to do, and ideas for potential features:
+
+* Sync avatar with "SSO overrides avatar"
+
 ## Discourse Changelog
 
 ### 1.0.0 -- 2016.04.16
